@@ -4,44 +4,64 @@
     <meta charset="UTF-8">
     <title>My page</title>
     <style type="text/css">
-        .main_frame {
-            margin: auto;
-            width: 888px;
-            padding: 50px;
-            text-align: justify;
-            border: 4px double black;
-            font-family: Times, Times New Roman, Georgia, serif;
-            font-size: 26px;
+        body {
+            background: url("images/bg_3.jpg");
+            background-attachment: fixed;
+            padding: 5% 10%;
+            font-size: 2vw;
         }
 
-        .visit_card {
-            width: 888px;
+        .line_delimiter {
+            width: 114%;
+            padding: 1% 5%;
+            background: rgb(198,198,198);
+            background: linear-gradient(90deg, rgba(198,198,198,1) 4%, rgba(184,184,184,1) 97%);
+            box-shadow: 0px 0px 11px rgba(0, 0, 0, 5);
+            color: white;
+            margin-left: -12%;
+        }
+
+        .main_frame {
+            padding: 5% 10%;
+            text-align: justify;
             font-family: Times, Times New Roman, Georgia, serif;
-            font-size: 26px;
-            padding: 20px 0px;
+            background: rgb(230,255,242);
+            background: linear-gradient(90deg, rgba(230,255,242,1) 0%, rgba(195,215,233,1) 50%,
+                                        rgba(191,244,255,1) 95%);
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .visit_card {
+            font-family: Times, Times New Roman, Georgia, serif;
+            padding: 2% 1% 8% 1%;
             line-height: 1.5;
         }
 
         .block_content {
-            width: 888px;
+            width: 114%;
             font-family: Times, Times New Roman, Georgia, serif;
-            font-size: 26px;
-            padding: 20px 0px;
-            border-top: 4px double black;
+            margin-left: -12%;
+            margin-bottom: 1%;
+            padding: 1% 5%;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+            #border-top: 2px solid;
+
+            background: rgb(227,225,225);
+            background: linear-gradient(90deg, rgba(227,225,225,1) 4%, rgba(227,225,225,1) 97%);
         }
 
         .source {
-            width: 888px;
             font-family: Lucida Console, Courier New, monospace;
-            font-size: 20px;
-            padding: 20px 0px;
-            border-top: 4px double black;
+            font-size: 2vw;
         }
 
         .publication_links {
             text-align: right;
             padding: 2% 0%;
         }
+
 
         a {
             text-decoration: none;
@@ -71,10 +91,11 @@
 
 
 
+
     </style>
 </head>
 
-<body>
+<body style="background-color: #8c9dba">
 <div class="main_frame">
     <H1> Гайдай Анатолий Валерьевич </H1>
 
@@ -86,7 +107,8 @@
     </div>
 
 
-    <h2> Образование </h2>
+
+    <div class="line_delimiter"><h2> Образование </h2></div>
     <div class="block_content" id="education">
         <h3><u>2018 г.</u></h3>
         Сибирский государственный университет телекоммуникаций и информатики,
@@ -96,32 +118,35 @@
         <h3><u>2016 г.</u></h3>
         Сибирский государственный университет телекоммуникаций и информатики, Новосибирск <b>
         Бакалавриат (диплом с отличием), 09.03.01 «Информатика и вычислительная техника»</b>
-        (кафедра вычислительных систем) [<a href="#source_1">1</a>-<a href="#source_2">2</a>]<br>
+        (кафедра вычислительных систем) [<a href="#source_1">1</a>-<a href="#source_2">2</a>]<br> <br>
     </div>
 
 
-    <h2>Опыт работы</h2>
+
+    <div class="line_delimiter"><h2>Опыт работы</h2></div>
     <div class="block_content" id="work_experience">
         <u>С ноября 2018 г.</u> (<b>2 года 2 месяца</b>) <br><br>
         <b>Место работы:</b> ФГУП «Государственная корпорация по организации воздушного движения
         в Российской Федерации» (Западно-Сибирский филиал)<br><br>
 
         <b>Должность:</b> инженер по связи, ВрИО ведущий инженер по связи
-        <br>
+        <br> <br>
     </div>
 
 
-    <h2> Английский язык </h2>
+
+    <div class="line_delimiter"><h2> Английский язык </h2></div>
     <div class="block_content" id="english_level">
         <b>Уровень: </b><i>Pre-Intermediate</i> (<b>А2</b>)
         <br><br>
         <i><b>Применение на практике</b><br>
             ◆ Чтение технической документации / статей ◆ Комментирование кода</i>
-        <br>
+        <br> <br>
     </div>
 
 
-    <h2>Языки программирования</h2>
+
+    <div class="line_delimiter"><h2>Языки программирования</h2></div>
     <div class="block_content" id="programming_languages">
         <ul>
             <li><i>С </i>[<a href="#source_1">1</a>-<a href="#source_14">14</a>]</li>
@@ -135,11 +160,12 @@
         <br>◆ Разработка программного монитора динамики трейдинговых показателей
         на фьючерсном крипторынке Binance (Java)
         </i> (<span style="color: green">активно занимаюсь</span>)
-        <br>
+        <br> <br>
     </div>
 
 
-    <h2>Параллельное программирование</h2>
+
+    <div class="line_delimiter"><h2>Параллельное программирование</h2></div>
     <div class="block_content" id="parallel_programming">
         <ul>
             <li>
@@ -156,11 +182,12 @@
         <b><i>Применение на практике</i></b><br>
         <i> ◆ Научно-исследовательская деятельность
             ◆ Системное, сетевое, асинхронное программирование </i>
-        <br>
+        <br> <br>
     </div>
 
 
-    <h2>WEB</h2>
+
+    <div class="line_delimiter"><h2>WEB</h2></div>
     <div class="block_content" id="web">
         <ul>
             <li><i>HTML/CSS</i></li>
@@ -173,11 +200,12 @@
             фьючерсном крипторынке Binance &nbsp; &nbsp; ◆ Администрирование комплекса средств автоматизации УВД*
             «Альфа»</i>
         <br><br>
-        <span style="color: darkblue"><i>* Управление воздушным движением</i></span>
+        <span style="color: darkblue"><i>* Управление воздушным движением</i></span> <br>
     </div>
 
 
-    <h2>Протоколы модели OSI</h2>
+
+    <div class="line_delimiter"><h2>Протоколы модели OSI</h2></div>
     <div class="block_content" id="osi_protocols">
         <ul>
             <li> Прикладной уровень: <i>HTTP(S)</i>, <i>SSH</i>, <i>WebSocket</i></li>
@@ -190,11 +218,12 @@
             и Java (разработка программного монитора динамики
             трейдинговых показателей на фьючерсном крипторынке Binance) ◆ Системное администрирование
             ◆ Разработка программного монитора динамики трейдинговых показателей на фьючерсном
-            крипторынке Binance</i><br>
+            крипторынке Binance</i><br> <br>
     </div>
 
 
-    <h2>Среды разработки</h2>
+
+    <div class="line_delimiter"><h2>Среды разработки</h2></div>
     <div class="block_content" id="programming_studios">
         <ul>
             <li><i>IntelliJ IDEA</i></li>
@@ -206,11 +235,12 @@
             УВД* (WPF+XAML) ◆ Разработка программного монитора динамики трейдинговых показателей
             на фьючерсном крипторынке Binance (IntelliJ IDEA)</i>
         <br><br>
-        <span style="color: darkblue"><i>* Управление воздушным движением</i></span>
+        <span style="color: darkblue"><i>* Управление воздушным движением</i></span> <br>
     </div>
 
 
-    <h2>Структуры данных</h2>
+
+    <div class="line_delimiter"><h2>Структуры данных</h2></div>
     <div class="block_content" id="data_structures">
         <ul>
             <li>
@@ -236,11 +266,12 @@
             <br><br>
             Очереди, стеки, сбалансированные деревья поиска, хеш-таблицы и другие структуры
             данных используются повсеместно и являются фундаментальными в сфере информационных
-            технологий. Поэтому задача определения области их применения является нетривиальной.</i>
+            технологий. Поэтому задача определения области их применения является нетривиальной.</i> <br>
     </div>
 
 
-    <h2>Алгоритмы</h2>
+
+    <div class="line_delimiter"><h2>Алгоритмы</h2></div>
     <div class="block_content" id="algorithms">
         <ul>
             <li><i>Sorting</i>: <i>Bubble</i>, <i>Quick</i>, <i>Merge</i>, <i>etc.</i></li>
@@ -252,11 +283,12 @@
             распространенных алгоритмов на языке С)
             <br><br>
             Как и в случае со структурами данных, сложно переоценить практическое значение алгоритмов,
-            а задача определения области их применения также является нетривиальной.</i>
+            а задача определения области их применения также является нетривиальной.</i> <br>
     </div>
 
 
-    <h2>Frameworks</h2>
+
+    <div class="line_delimiter"><h2>Frameworks</h2></div>
     <div class="block_content" id="frameworks">
         <ul>
             <li><i>Spring</i>: <i>Inversion of control</i>, <i>Dependency injection</i>
@@ -266,11 +298,12 @@
         </ul>
         <b><i>Применение на практике</i></b><br>
         <i>◆ Разработка программного монитора динамики трейдинговых показателей на
-            фьючерсном крипторынке Binance (Spring, Maven)</i>
+            фьючерсном крипторынке Binance (Spring, Maven)</i> <br>
     </div>
 
 
-    <h2>Шаблоны программирования </h2>
+
+    <div class="line_delimiter"><h2>Шаблоны программирования </h2></div>
     <div class="block_content" id="programming_patterns">
         (<span style="color: green">активно изучаю</span>)
         <ul>
@@ -279,11 +312,12 @@
         </ul>
         <b><i>Применение на практике</i></b><br>
         <i>◆ Разработка программного монитора динамики трейдинговых показателей на фьючерсном
-            крипторынке Binance</i>
+            крипторынке Binance</i> <br>
     </div>
 
 
-    <h2>Шаблоны проектирования</h2>
+
+    <div class="line_delimiter"><h2>Шаблоны проектирования</h2></div>
     <div class="block_content" id="design_patterns">
         (<span style="color: green">активно изучаю</span>)</h2>
         <ul>
@@ -291,24 +325,27 @@
         </ul>
         <b><i>Применение на практике</i></b><br>
         <i>◆ Разработка программного монитора динамики трейдинговых показателей на фьючерсном
-            крипторынке Binance (MVC)</i>
+            крипторынке Binance (MVC)</i> <br>
     </div>
 
 
+
+
+    <div class="line_delimiter"><h2>Управление репозиториями кода</h2></div>
     <div class="block_content" id="version_control_systems">
-        <h2>Управление репозиториями кода</h2>
         <ul>
             <li><i>GitHub</i></li>
             <li><i>GitLab</i></li>
         </ul>
         <b><i>Применение на практике</i></b><br>
         <i>◆ Разработка программного монитора динамики трейдинговых показателей на фьючерсном
-            крипторынке Binance (GitLab) ◆ Хранение личных программных решений (GitHub)</i>
+            крипторынке Binance (GitLab) ◆ Хранение личных программных решений (GitHub)</i> <br>
     </div>
 
 
+
+    <div class="line_delimiter"><h2>Операционные системы</h2></div>
     <div class="block_content" id="operation_systems">
-        <h2>Операционные системы</h2>
         <ul>
             <li><i>GNU/Linux</i>: принципы работы ядра ОС; <i>GNU Utilities</i></li>
             <li><i>Windows</i></li>
@@ -320,10 +357,11 @@
             отказоустойчивых систем (GNU/Linux) ◆ Администрирование
             комплекса средств автоматизации УВД* «Альфа»</i>
         <br><br>
-        <span style="color: darkblue"><i>* Управление воздушным движением</i></span>
+        <span style="color: darkblue"><i>* Управление воздушным движением</i></span> <br>
     </div>
 
-    <h2>Системы генерирования документации </h2>
+
+    <div class="line_delimiter"><h2>Системы генерирования документации </h2></div>
     <div class="block_content" id="document_generators">
         <ul>
             <li><i>Doxygen</i> [<a href="#source_6">6</a>-<a href="#source_14">14</a>]</li>
@@ -331,12 +369,12 @@
         </ul>
         <b><i>Применение на практике</i></b><br>
         <i>◆ Генерирование сопровождающей документации</i>
-        <br>
+        <br> <br>
     </div>
 
 
 
-    <h2>Научно-исследовательская деястельность</h2>
+    <div class="line_delimiter"><h2>Научно-исследовательская деястельность</h2></div>
     <div class="source" id="publications_list">
         <ol>
             <li id="source_1">
@@ -405,7 +443,8 @@
                     <a target="_blank" rel="noopener noreferrer" href="Publications/2018/master_dissertation_text.pdf">
                         Текст
                     </a>|
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2018/master_dissertation_present.pdf">
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="Publications/2018/master_dissertation_present.pdf">
                         Презентация
                     </a>
                     )
@@ -413,9 +452,12 @@
             </li>
         </ol>
     </div>
-        <h2>Другие проекты</h2>
-        <div class="source" id="link_list">
-        <ol >
+
+
+
+    <div class="line_delimiter"><h2>Другие проекты</h2></div>
+    <div class="source" id="link_list">
+        <ol>
             <li id="source_6" value="6">
                 Решение СЛАУ методом Гаусса (Serial & MPI implementations)
                 <div class="publication_links">(
