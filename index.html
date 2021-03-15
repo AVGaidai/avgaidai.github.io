@@ -2,133 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My page</title>
-    <style type="text/css">
-        body {
-            background: url("images/bg_3.jpg");
-            background-attachment: fixed;
-            padding: 5% 10%;
-            font-size: 150%;
-        }
-
-        .line_delimiter {
-            width: 114%;
-            padding: 1% 5%;
-            background: rgb(198,198,198);
-            background: linear-gradient(90deg, rgba(198,198,198,1) 4%, rgba(184,184,184,1) 97%);
-            box-shadow: 0px 0px 11px rgba(0, 0, 0, 5);
-            color: white;
-            margin-left: -12%;
-        }
-
-        .main_frame {
-            padding: 5% 10%;
-            text-align: justify;
-            font-family: Times, Times New Roman, Georgia, serif;
-            background: rgb(230,255,242);
-            background: linear-gradient(90deg, rgba(230,255,242,1) 0%, rgba(195,215,233,1) 50%,
-                                        rgba(191,244,255,1) 95%);
-            border-radius: 10px;
-            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-        }
-
-
-        .visit_card {
-            width: 100%;
-            font-family: Times, Times New Roman, Georgia, serif;
-            padding: 2% 1% 8% 1%;
-            line-height: 1.5;
-        }
-
-        .block_content {
-            width: 114%;
-            font-family: Times, Times New Roman, Georgia, serif;
-            margin-left: -12%;
-            margin-bottom: 1%;
-            padding: 1% 5%;
-            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-            #border-top: 2px solid;
-
-            background: rgb(227,225,225);
-            background: linear-gradient(90deg, rgba(227,225,225,1) 4%, rgba(227,225,225,1) 97%);
-        }
-
-        .source {
-            font-family: Lucida Console, Courier New, monospace;
-            font-size: 2vw;
-        }
-
-        .publication_links {
-            text-align: right;
-            padding: 2% 0%;
-        }
-
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        a:active {
-            color: black;
-        }
-
-        a:visited {
-            color: black;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: black;
-        }
-
-        li {
-            padding-top: 10px;
-        }
-
-        ol li {
-            border-bottom: solid 1px gray;
-        }
-
-		.navbar {
-			overflow: hidden;
-			background-color: #333;
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-		}
-
-		.navbar a {
-			float: left;
-			display: block;
-			color: #a2f2f2;
-			font-align: center;
-			padding: 1% 1%;
-			text-decoration: none;
-			font-size: 120%;
-		}
-
-		.navbar a:hover {
-			background: #ddd;
-			color: black;
-		}
-
-    </style>
+    <title>Anatoly Gaidai</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/indexStyles.css">
+    <link rel="import" href="navbar.html">
 </head>
 
-<body style="background-color: #8c9dba">
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-</div>
+<body>
+<script>
+      var link = document.querySelector('link[rel=import]');
+      var content = link.import.querySelector('#navigationBar');
+      document.body.appendChild(content.cloneNode(true));
+</script>
+
 <div class="main_frame">
     <H1> Гайдай Анатолий Валерьевич </H1>
     <table>
         <tr>
             <td width="12%">
-                    <img src="images/myPhoto.png" width="100%">
+                    <img src="Images/myPhoto.png" width="100%">
             </td>
             <td>
                 <div class="visit_card" id="info">
@@ -193,7 +85,7 @@
         ◆ Построение многокомпонентных отказоустойчивых систем (Bash, C)
         <br>◆ Разработка программного монитора динамики трейдинговых показателей
         на фьючерсном крипторынке Binance (Java)
-        </i> (<span style="color: green">активно занимаюсь</span>)
+        </iframe> (<span style="color: green">активно занимаюсь</span>)
         <br> <br>
     </div>
 
@@ -410,84 +302,7 @@
 
 
 
-    <div class="line_delimiter"><h2>Научно-исследовательская деястельность</h2></div>
-    <div class="source" id="publications_list">
-        <ol>
-            <li id="source_1">
-                Гайдай А.В. Алгоритм оптимизации использования мьютексов по результатам предварительного
-                профилирования // Материалы международной научной студенческой конференции (МНСК-2016),
-                Новосибирск, 2016
-                <div class="publication_links">(
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/mutex_profiler_text.png">
-                        Текст
-                    </a>|
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/mutex_profiler_present.pdf">
-                        Презентация
-                    </a>
-                    )
-                </div>
-            </li>
-            <li id="source_2">
-                Гайдай А.В. Адаптивный алгоритм операции захвата мьютекса //
-                Российская научно-техническая конференция «инновации и научно-техническое творчество
-                молодежи», Новосибирск, 2016
-                <div class="publication_links">(
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/popov_text.pdf">
-                        Текст
-                    </a>|
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/popov_present.pdf">
-                        Презентация
-                    </a>
-                    )
-                </div>
-            </li>
-            <li id="source_3">
-                Гайдай А.В. Оптимизация синхронизации параллельных программ для вычислительных систем
-                с общей памятью // Материалы Двенадцатой Международной Азиатской школы-семинара
-                «Проблемы оптимизации сложных систем», Новосибирск, 2016
-                <div class="publication_links">(
-                    <a target="_blank" rel="noopener noreferrer"
-                       href="Publications/2016/optimization_problems_text.pdf">
-                        Текст
-                    </a>|
-                    <a target="_blank" rel="noopener noreferrer"
-                       href="Publications/2016/optimization_problems_present.pdf">
-                        Презентация
-                    </a>
-                    )
-                </div>
-            </li>
-            <li id="source_4">
-                Гайдай А.В. Оптимизация синхронизации параллельных программ для вычислительных систем
-                с общей памятью // Выпускная квалификационная работа бакалавра по направлению
-                09.03.01 «Информатика и вычислительная техника». - Новосибирск, СибГУТИ, 2016
-                <div class="publication_links">(
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/bachelor_text.pdf">
-                        Текст
-                    </a>|
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2016/bachelor_present.pdf">
-                        Презентация
-                    </a>
-                    )
-                </div>
-            </li>
-            <li id="source_5">
-                Гайдай А.В. Методы организации отказоустойчивого выполнения параллельных программ //
-                Выпускная квалификационная работа магистра по направлению 09.04.01. «Информатика и
-                вычислительная техника». - Новосибирск, СибГУТИ, 2018
-                <div class="publication_links">(
-                    <a target="_blank" rel="noopener noreferrer" href="Publications/2018/master_dissertation_text.pdf">
-                        Текст
-                    </a>|
-                    <a target="_blank" rel="noopener noreferrer"
-                       href="Publications/2018/master_dissertation_present.pdf">
-                        Презентация
-                    </a>
-                    )
-                </div>
-            </li>
-        </ol>
-    </div>
+
 
 
 

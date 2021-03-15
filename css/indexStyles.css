@@ -1,0 +1,85 @@
+body {
+            background: url("../Images/bg_3.jpg");
+            background-attachment: fixed;
+            padding: 5% 10%;
+            font-size: 150%;
+        }
+
+        .line_delimiter {
+            width: 114%;
+            padding: 1% 5%;
+            background: rgb(198,198,198);
+            background: linear-gradient(90deg, rgba(198,198,198,1) 4%, rgba(184,184,184,1) 97%);
+            box-shadow: 0px 0px 11px rgba(0, 0, 0, 5);
+            color: white;
+            margin-left: -12%;
+        }
+
+        .main_frame {
+            padding: 5% 10%;
+            text-align: justify;
+            font-family: Times, Times New Roman, Georgia, serif;
+            background: rgb(230,255,242);
+            background: linear-gradient(90deg, rgba(230,255,242,1) 0%, rgba(195,215,233,1) 50%,
+                                        rgba(191,244,255,1) 95%);
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .visit_card {
+            width: 100%;
+            font-family: Times, Times New Roman, Georgia, serif;
+            padding: 2% 1% 8% 1%;
+            line-height: 1.5;
+        }
+
+        .block_content {
+            width: 114%;
+            font-family: Times, Times New Roman, Georgia, serif;
+            margin-left: -12%;
+            margin-bottom: 1%;
+            padding: 1% 5%;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+            #border-top: 2px solid;
+
+            background: rgb(227,225,225);
+            background: linear-gradient(90deg, rgba(227,225,225,1) 4%, rgba(227,225,225,1) 97%);
+        }
+
+        .source {
+            font-family: Lucida Console, Courier New, monospace;
+            font-size: 2vw;
+        }
+
+        .publication_links {
+            text-align: right;
+            padding: 2% 0%;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        li {
+            padding-top: 10px;
+        }
+
+        ol li {
+            border-bottom: solid 1px gray;
+        }
