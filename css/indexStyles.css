@@ -1,5 +1,5 @@
 body {
-            background: url("../Images/bg_3.jpg");
+            background: url("/avgaidai.github.io/resources/images/bg_3.jpg");
             background-attachment: fixed;
             padding: 5% 10%;
             font-size: 150%;
@@ -49,10 +49,15 @@ body {
 
         .source {
             font-family: Lucida Console, Courier New, monospace;
-            font-size: 2vw;
+            font-size: 1vw;
         }
 
-        .publication_links {
+        .publication {
+            font-family: Lucida Console, Courier New, monospace;
+            font-size: 1vw;
+        }
+
+        .MyLink {
             text-align: right;
             padding: 2% 0%;
         }
