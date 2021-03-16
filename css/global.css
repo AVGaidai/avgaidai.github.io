@@ -1,3 +1,12 @@
+        .SocialMedia {
+            overflow: hidden;
+        	position: fixed;
+            top: 2%;
+            left: 82%;
+            right: 11%
+
+        }
+
         a:visited {
             color: #a2f2f2;
         }
@@ -16,7 +25,6 @@
 			float: left;
 			display: block;
 			color: #a2f2f2;
-			font-align: center;
 			padding: 1% 1%;
 			text-decoration: none;
 			font-size: 160%;
